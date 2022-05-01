@@ -13,7 +13,7 @@ This repository is to help you get started with learning OpenGL. You can simply 
 	```bash
 	git clone --recursive https://github.com/{Your Username}/LearnOpenGL
 	```
-* The relevant opengl related header files are already included in ```main.hpp```. Instead of including ```<GLFW/glfw3.h>``` and ```<glad/glad.h>``` you only need to include ```main.hpp```
+* The relevant opengl related header files are already included in [main.hpp](inc/main.hpp). Instead of including ```<GLFW/glfw3.h>``` and ```<glad/glad.h>``` you only need to include ```<main.hpp>```
 
 * You can build the project by running the following command in the root directory of the project
 	```bash
