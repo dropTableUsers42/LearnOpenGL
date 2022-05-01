@@ -8,7 +8,7 @@ file(GLOB_RECURSE SOURCES src/*.cpp)
 # add the executable
 add_executable(Tutorial ${SOURCES})
 
-target_include_directories(Tutorial PUBLIC include)
+target_include_directories(Tutorial PUBLIC inc)
 
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
